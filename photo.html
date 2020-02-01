@@ -1,0 +1,322 @@
+<html>
+    <head>
+        <title>Bimarsh</title>
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/firstLayer.css">
+        <link rel="stylesheet" href="css/secondLayer.css">
+        <link rel="stylesheet" href="css/thirdLayer.css">
+        <link rel="stylesheet" href="css/layer4.css">
+        <link rel="stylesheet" href="css/layer5.css">
+        <link rel="stylesheet" href="css/sixthLayer.css">
+        <link rel="stylesheet" href="css/layer7.css">
+        <link rel="stylesheet" href="css/layer8.css">
+        <link rel="stylesheet" href="icons/font/flaticon.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    </head>
+    <body>
+        <!-- Header***************************************************** -->
+        <div class="outer-cover"> 
+            <header class="main-header">
+                <div class="menu-container">
+                    <h1 class="logo-2020">
+                        <img src="pics/visitnepal2020.png">
+                    </h1>
+                    <nav class="main-nav">
+                        <ul class="main-nav-list">
+                            <li>
+                                <a href="#"><i class="flat flaticon-house"></i>Home</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="flat flaticon-tourism"></i>Places</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="flat flaticon-way"></i> Map </a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="flat flaticon-band"></span>Festivals</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="flat flaticon-tiger"></i>WildLife</a>
+                            </li>
+                            <li>
+                                <a id='dropDown'><i class="flat flaticon-man-thinking"></i>What to do<i class="smallArr flaticon-down-arrow"></i>
+                                    <div class="info-container">
+                                        <div class="infos"><span class="flaticon-paragliding"></span>Paragliding</div>
+                                        <div class="infos"><span class="flaticon-canoe"></span>Rafting</div>
+                                        <div class="infos"><span class="flaticon-mountain"></span>Mountain Climbing</div>
+                                        <div class="infos"><span class="flaticon-bungee-jumping"></span>Bungee</div>
+                                        <div class="infos"><span class="flaticon-holiday"></span>Camping</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <!-- Scroll Progress Bar -->
+            <div class="scrollContainer">
+                <div class="scrollBar"></div>
+            </div>
+        </div>
+        <!-- ***************************************************** -->
+        <!-- First Layer -->
+        <section class="firstLayer">            
+            <div class="contentSection">
+                <div class="contents">
+                    <div class="iconSection">
+                        <div class="logoVisit"><img src="pics/visitnepal-2020-logo.png" alt="" srcset=""></div c>
+                        <div class="logoLifetime"><img src="pics/lifetime-experiences-tagline.png" alt="" srcset=""></div>
+                        <!-- <span class="flaticon-nepal lay1Icon"></span> -->
+                    </div>
+                    <!-- <div class="textHead">Visit Nepal,Experience For Lifetime</div> -->
+                    <div class="textSection">
+                        <div class="introText">
+                        This is nepal which is very good and absoultely amaizng.Experience the amazing beauty and the inspiring perspiring colleada<br>
+                        <a href='#secondLayer'><p>Explore more<span class="flaticon-right"></span></p></a>                      
+                        </div>
+                        <!-- <span class="flaticon-asia textIcon"></span> -->
+                    </div>
+                </div>
+            </div>
+            <div class="imgSection">
+                <div class="imgContainer">
+                    <div class="icoButt"><!--Next and Previous of Slider-->
+                        <div class="prev" onclick="prevImage()"><i class="sliderControlIcons flaticon-camera-back"></i></div>
+                        <div class="next" onclick="nextImage()"><i class="sliderControlIcons flaticon-right"></i></div>
+                    </div><!--*******************************************-->
+                    <div class="slideControl">
+                        <div class="imgCount">
+                            <div class="rounds" onclick="imageSlider(0)"></div>
+                            <div class="rounds" onclick="imageSlider(1)"></div>
+                            <div class="rounds" onclick="imageSlider(2)"></div>
+                            <div class="rounds" onclick="imageSlider(3)"></div>
+                        </div>
+                        <div class="pause" id='pause' onclick="pause()"><i class="sliderControlIcons flaticon-pause"></i></div>
+                    </div>
+                    <div class="sliderContainerImg"><!--Slider Images are kept Here-->
+                        <div class="imgText">
+                            <div class='headTextPic'>Experience Ferocity</div>
+                            <div class='infoTextPic'>Nepal is ery Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, neque, ad, ipsa nostrum atque iste quibusdam est voluptas dolorum tempore consequatur illo fugit. Dolor veniam recusandae quibusdam deserunt? Consequuntur, repellendus!</div>
+                        </div>                        
+                        <img src="pics/Nepal-2.jpg" class="introImg">
+                    </div>
+                    <div class="sliderContainerImg"><!--Slider Images are kept Here-->
+                        <div class="imgText">
+                            <div class='headTextPic'>Experience Tranquility</div>
+                            <div class='infoTextPic'>Nepal is ery Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, neque, ad, ipsa nostrum atque iste quibusdam est voluptas dolorum tempore consequatur illo fugit. Dolor veniam recusandae quibusdam deserunt? Consequuntur, repellendus!</div>
+                        </div>
+                        <img src="pics/rockclimb.jpg" class="introImg">
+                    </div>
+                    <div class="sliderContainerImg"><!--Slider Images are kept Here-->
+                        <div class="imgText">
+                            <div class='headTextPic'>Experience Stg</div>
+                            <div class='infoTextPic'>Nepal is ery Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, neque, ad, ipsa nostrum atque iste quibusdam est voluptas dolorum tempore consequatur illo fugit. Dolor veniam recusandae quibusdam deserunt? Consequuntur, repellendus!</div>
+                        </div>
+                        <img src="pics/paraglide.jpg" class="introImg">
+                    </div>
+                    <div class="sliderContainerImg"><!--Slider Images are kept Here-->
+                        <div class="imgText">
+                            <div class='headTextPic'>Experience New</div>
+                            <div class='infoTextPic'>Nepal is ery Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, neque, ad, ipsa nostrum atque iste quibusdam est voluptas dolorum tempore consequatur illo fugit. Dolor veniam recusandae quibusdam deserunt? Consequuntur, repellendus!</div>
+                        </div>
+                        <img src="pics/bungee.jpg" class="introImg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Second Layer -->
+        <section class="secondLayer" id="secondLayer">
+            <div class="secondLayerSections">
+                <div class="Lay2ImgContainer" data-aos='fade-up'><!--Second Layer Image is Here-->
+                    <div class="kumariContainer">
+                        <img src="pics/unnamed.jpg" alt="Living Goddess !Kumari">
+                        <div class="blackOpacity"></div>
+                    </div>
+                </div>
+                <div class="Lay2TextContainer" data-aos="fade-left"><!--Second Layer Text is Here-->
+                    <div class="lay2TextHead">Feel The Goddess</div>
+                    <div class="lay2SubText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae culpa fuga, pariatur ipsa rem mollitia voluptates perferendis id, numquam </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- **************** -->
+        <!-- Third Layer -->
+        <section class="thirdLayer">
+            <div class="thirdSection">
+                <div class="lay3TextSection" data-aos="fade-right">
+                    <span class="lay3HeadText">This is Heading</span>
+                    <span class="lay3SubText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore nostrum autem dolo</span>
+                </div>
+                <div class="lay3SliderSection" data-aos="fade-up-left"><!--Layer 3 Small Box SLider-->
+                    <div class="lay3Slider">                                                    <!--First DIv of Slider-->
+                        <div class="slideBoxes small">
+                            <div class="lay3SlideImg"><img src="pics/pashupati ktm.jpg"></div>
+                            <div class="lay3SlideHeadText">Get Religious</div>
+                            <div class="lay3SlideSubText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eum. Qua</div>
+                            <p>Read more <span class="flaticon-right"></span></p>
+                        </div>
+                        <div class="slideBoxes big">
+                            <div class="lay3SlideImg"><img src="pics/holie.jpg"></div>
+                            <div class="lay3SlideHeadText">Feel the Color</div>
+                            <div class="lay3SlideSubText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia quam error placeat esse commodi obcaecati mollitia quo at autem duci</div>
+                            <p>Read more <span class="flaticon-right"></span></p>
+                        </div>
+                        <div class="slideBoxes small">
+                            <div class="lay3SlideImg"><img src="pics/hillsunray.jpg"></div>
+                            <div class="lay3SlideHeadText">Feel the Rise of Dawn</div>
+                            <div class="lay3SlideSubText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eum. Qua</div>
+                            <p>Read more <span class="flaticon-right"></span></p>
+                        </div>
+                    </div>
+
+                    <div class="lay3Slider">                                                    <!--Second DIv of Slider-->
+                        <div class="slideBoxes big">
+                            <div class="lay3SlideImg"><img src="pics/portray.jpg"></div>
+                            <div class="lay3SlideHeadText">Reach the Top</div>
+                            <div class="lay3SlideSubText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eum. Qua</div>
+                            <p>Read more <span class="flaticon-right"></span></p>
+                        </div>
+                        <div class="slideBoxes small">
+                            <div class="lay3SlideImg"><img src="pics/reachtrektop.jpg"></div>
+                            <div class="lay3SlideHeadText">Feel the Galaxy</div>
+                            <div class="lay3SlideSubText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia quam error placeat esse commodi obcaecati mollitia quo at autem duci</div>
+                            <p>Read more <span class="flaticon-right"></span></p>
+                        </div>
+                        <div class="slideBoxes small">
+                            <div class="lay3SlideImg"><img src="pics/top.jpg"></div>
+                            <div class="lay3SlideHeadText">Feel the Top</div>
+                            <div class="lay3SlideSubText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eum. Qua</div>
+                            <p>Read more <span class="flaticon-right"></span></p>
+                        </div>
+                    </div>
+                    <div class="lay3Slider">                                                    <!--Third DIv of Slider-->
+                        <div class="slideBoxes small">
+                            <div class="lay3SlideImg"><img src="pics/nature.jpg"></div>
+                            <div class="lay3SlideHeadText">Feel the Mother Nature</div>
+                            <div class="lay3SlideSubText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eum. Qua</div>
+                            <p>Read more <span class="flaticon-right"></span></p>
+                        </div>
+                        <div class="slideBoxes small">
+                            <div class="lay3SlideImg"><img src="pics/firepeace.jpg"></div>
+                            <div class="lay3SlideHeadText">Never Ending Peace</div>
+                            <div class="lay3SlideSubText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia quam error placeat esse commodi obcaecati mollitia quo at autem duci</div>
+                            <p>Read more <span class="flaticon-right"></span></p>
+                        </div>
+                        <div class="slideBoxes big">
+                            <div class="lay3SlideImg"><img src="pics/pasupati.jpg"></div>
+                            <div class="lay3SlideHeadText">Get Religious</div>
+                            <div class="lay3SlideSubText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eum. Qua</div>
+                            <p>Read more <span class="flaticon-right"></span></p>
+                        </div>
+                    </div>
+                    <div class="lay3SliderControl"><!--Layer 3 Slider Control Bar-->
+                        <div class="lay3SliderRounds" onclick="layer3Slider(0)"></div>
+                        <div class="lay3SliderRounds" onclick="layer3Slider(1)"></div>
+                        <div class="lay3SliderRounds" onclick="layer3Slider(2)"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ************* -->
+        <!-- Fourth Layer -->
+        <section class="fourthLayer">
+            <div class="layer4Content">
+                <div class="lay4TextSection" data-aos="fade-up">
+                    <div class="lay4TextHead">Feel the peace in Mind</div>
+                    <div class="lay4SubTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore illum quibusdam aliquam, rem nesciunt harum beatae, neque sint quis et mollitia enim cum ea dolor autem quaerat atque dolores dignissimos.</div>
+                </div>
+                    <div class="lay4ImageSection">
+                        <div class="lay4Img smallImgLay4" data-aos="fade-down-left">
+                            <img src="pics/buddha.jpg" alt="" srcset="">
+                        </div>
+                        <div class="lay4Img bigImgLay4" data-aos="fade-down-left">
+                            <img src="pics/buddha4.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- Fifth Layer -->
+        <section class="fifthLayer">
+            <video src="pics/raft3.mp4" loop=true  autoplay=true></video>
+            <div class="fifthLayerContent" data-aos="fade-up">
+                <div class="layer5TextHead">Feel The Wave</div>
+                <div class="layer5SubText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam laboriosam voluptas adipisci vitae iusto, porro cumque quod ea deserunt esse, cum possi</div>
+            </div>
+        </section>
+        <!-- ************ -->
+        <!-- Sixth Layer -->
+        <section class="sixthLayer">
+            <div class="layer6Container">
+                <div class="lay6Boxes lay6SmallBoxes">              <!--Layer 6 Video Container is here-->
+                    <div class="lay6VideoContainer">
+                        <video src="pics/paraGLide.mp4" autoplay='true' loop='true'></video>
+                    </div>
+                    <div class="lay6TextContainer">
+                        <div class="lay6HeadText">Fly With Nature</div>
+                        <div class="lay6SubText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis repudiandae enim </div>
+                    </div>
+                </div>
+                <div class="lay6Boxes lay6MedBoxes">                <!--Layer 6 Video Container is here-->                    
+                        <div class="lay6VideoContainer">
+                            <video src="pics/bungee.mp4" autoplay='true' loop='true'></video>
+                        </div>
+                        <div class="lay6TextContainer">
+                            <div class="lay6HeadText">Jump off The Cliff</div>
+                            <div class="lay6SubText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis repudiandae enim </div>
+                        </div>
+                    </div>
+                    <div class="lay6Boxes lay6BigBoxes">                <!--Layer 6 Video Container is here-->                        
+                            <div class="lay6VideoContainer">
+                                <video src="pics/mtclimb.mp4" autoplay='true' loop='true'></video>
+                            </div>
+                            <div class="lay6TextContainer">
+                                <div class="lay6HeadText">Climb the Top</div>
+                                <div class="lay6SubText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis repudiandae enim </div>
+                            </div>
+                    </div>
+                    <span class="lay7MainHeadText">Experience Freedom<br>Experience Flying</span>
+            </div>
+        </section>
+        <!--  -->
+        <!-- Seventh Layer -->
+        <section class="seventhLayer">
+            <div class="layer7ContentContainer">
+                <div class="layer7TextContainer">Camp<br>Live<br>Explore</div>
+                <div class="layer7VideoContainer">
+                    <video src="pics/ramp3.mp4" autoplay=true loop=true></video>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <!-- Eighth Layer -->
+        <section class="eighthLayer">
+            <div class="layer8ContentContainer">
+                <div class="layer8TextContainer"></div>
+                <div class="layer8VideoContainer">
+                    <video src="pics/camp2.mp4" autoplay=true loop=true></video>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <!-- Nineth Layer -->
+        <section class="ninethLayer"></section>
+        <!--  -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        offset:400,
+        duration:1000,
+        once:true
+    });
+  </script>
+    </body>
+    <script src="js/jquery.js"></script>
+    <script src="js/2020picslider.js"></script>
+    <script src="js/scrollBar.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/lay3slider.js"></script>
+    <script src="js/lay7-8Scroll.js"></script>
+    </html>

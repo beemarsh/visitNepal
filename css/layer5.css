@@ -1,0 +1,36 @@
+.fifthLayer{
+    height: 1150px;
+    width: 100%;
+    background: url('../pics/raft1.mp4') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.fifthLayer video{
+    min-width: 100%;
+    filter: brightness(0.4) blur(1px) saturate(0.8);
+    z-index: 9;
+    top: 80px;
+    position: relative;
+}
+.fifthLayerContent{
+    position: relative;
+    bottom: 83.5%;
+    width: 100%;
+    z-index: 10;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.layer5TextHead{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    color: white;
+    line-height: 2;
+}
+.layer5SubText{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4em;
+    color: rgba(255, 255, 255, 0.815);
+}

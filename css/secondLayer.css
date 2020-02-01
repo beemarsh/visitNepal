@@ -1,0 +1,72 @@
+.secondLayer{
+    width: 100%;
+    height: 600px;
+    background: url('../pics/wave.svg') no-repeat;
+    top: 100px;
+    position: relative;
+    background-size: cover;
+}
+.secondLayerSections{/*2 sections made flex*/
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.lay2ImgContainer{/*Section 1*/
+    height: 100%;
+    width: 40%;
+}
+.lay2TextContainer{/*Section 2*/
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.kumariContainer{/*Inside Section 1 Image of Kumari*/
+    height: 80%;
+    width: 45%;
+    background: #00000042;
+    margin: auto;
+    position: relative;
+    top: 80px;
+    border-radius: 4%;
+    left: 80px;
+    transition: linear 0.22s;
+    overflow: hidden;
+}
+.lay2TextHead{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+    line-height: 1.6;
+}
+.lay2SubText{
+    max-width: 60%;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.4;
+}
+.kumariContainer img{
+    height: 100%;
+    margin: auto;
+    position: relative;
+    left: -250px;
+    transition: 1s linear;
+}
+.blackOpacity{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    top: -480px;
+    background: #00000069;
+    transition: 0.3s linear;
+}
+.blackOpacity:hover{
+    filter: blur(0.9px);
+    background:#00000080 ;
+}
+.kumariContainer:hover{
+    box-shadow: -4px 10px 20px rgba(0, 0, 0, 0.49);
+}

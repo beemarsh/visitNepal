@@ -1,0 +1,132 @@
+.thirdLayer{
+    width: 100%;
+    height: 700px;
+    background: #dddada;
+    position: relative;
+    top: 100px;
+}
+.thirdSection{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.lay3TextSection{/*Third Layer Text Section*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+}
+.lay3HeadText{/*Layer 3 Head Text*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+.lay3SubText{/*Layer 3 Sub text*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.1em;
+    margin-left: 80px;
+    line-height: 1.5;
+}
+
+/* For Layer 3 Slider */
+.lay3SliderSection{
+    width:70% ;
+    height: 100%;
+}
+.lay3Slider{/*Layer 3 Slider Big Big Divs*/
+    height: 100%;
+    width: 100%;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.slideBoxes{/*Slider Images Boxes*/
+    display: flex;
+    flex-direction: column;
+    background: #ffffff45;
+    box-shadow: -1px 2px 40px -8px #0000008c;
+    transition: 0.2s linear;
+    text-align: center;
+}
+.slideBoxes:hover{/*Lay 3 slider image boxes on hovering*/
+        box-shadow: -2px 4px 30px 2px #0000008c;
+}
+.small{/*For small Slider Box Layer 3*/
+    height: 70%;
+    width: 23%;
+}
+.big{/*For longer Slider Box LAy 3*/
+    height: 80%;
+    width: 26%;
+}
+.lay3SlideImg{/*Slider Images Flex is Here*/
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.lay3SlideImg img{/*Images on Slider*/
+    transition: 0.2s linear;
+    max-width: 100%;
+    margin-top: -25%;
+}
+.lay3SlideImg img:hover {/*Increase size on hovering*/
+    transform: scale(1.08);
+}
+.lay3SlideHeadText{/*Layer 3 slider Head Text*/
+    max-height: 25%;
+    max-width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+.lay3SlideSubText{/*Layer 3 slider Sub Text*/
+    max-height: 25%;
+    width: 100%;
+    font-size: 1.2em;
+    margin-top: 12px;
+    font-family: 'Cabin', sans-serif;
+}
+.slideBoxes p{/*Read more text*/
+    display: inline;
+    color: #4a252ccf;
+    transition: 0.2s linear;
+    line-height: 2;
+    font-size: 1.3em;
+    text-indent: 20;
+}
+.slideBoxes p:hover{/*Hovering read More*/
+    cursor: pointer;
+    color: #a79573;
+}
+/* Now slider Control Panels on Layer 3 */
+.lay3SliderControl{
+    position: relative;
+    bottom: 40px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lay3SliderRounds{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background:#8980d4d6;
+    margin: 10px;
+    transition: 0.15s linear;
+    cursor: pointer;
+}
+.lay3ActiveRound{
+    background: white;
+    border: 3px solid #3c477b9e;
+}

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Fira+Sans|Josefin+Sans|Karla|Ubuntu|Fira+Sans|Titillium+Web&display=swap');
+.firstLayer{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    top: 130px;
+}
+.imgSection{
+    max-width: 56%;
+    height: 100%;/*To make black image*/
+    overflow: hidden;
+}
+.imgContainer{/*Containe of Image*/
+    max-height: 100%;
+    max-width: 100%;
+}
+.introImg{/*Slider Images*/
+    width: 100%;
+    position: relative;
+    top: -80px;
+    z-index: -1;
+}
+.contentSection{/*Information section*/
+    height: 100%;
+    width: 44%;
+}
+.contents{/*flex box of contents*/
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #6f818e;
+}
+.iconSection{/*Nepal Map ICon*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 50%;
+}
+.lay1Icon::before{/*Changing size of Map of NEpal and OTher ICons*/
+    font-size: 11em !important;
+}
+.textIcon::before{/*Icon beside Informative text*/
+    font-size: 6em !important;
+}
+.textHead,.textSection{/*For texts in Text section*/
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    margin-left: 70px;
+}
+.textHead{/*Big size for Header*/
+    font-size:3vw;
+    font-family: 'Kanit', sans-serif;
+}
+.textSection{/*Written Text info container*/
+    display: flex;
+    align-items: center;
+}
+.introText{/*Text given in Introduction*/
+    font-size: 1.3em;
+    margin-top: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    max-width: 60%;
+}
+/* For Next and Previous slider Buttons ********************************************************************************************************/
+.icoButt{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 300px;
+    position: relative;
+    align-items: center;
+    z-index: 2;
+}
+.prev,.next{/*Previous Next Buttons*/
+    height: 60%;
+    width: 50px;
+    border: 1px solid white;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.15s linear;
+}
+.prev:hover, .next:hover,.pause:hover{
+    border: 1px solid #d5e4dcd4;
+    color: #31798a;
+    background: #e6deded1;
+}
+.slideControl{/*Control Tab on Pics*/
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 470px;
+    z-index: 2;
+}
+.imgCount{/*Points on Slider Container*/
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rounds {/*Circular Tabs Small*/
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    background: white;
+    float: left;
+    cursor: pointer;
+}
+.active-round{/*Currently Active Circle*/
+    height: 10px;
+    width: 10px;
+    background: #d4cbcb;
+}
+.pause {/*Pause Button of Slider*/
+    height: 100%;
+    width: 50px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 1.6em;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s linear;
+}
+.imgSection i{/*Defining icons on Image Section Second Layer*/
+    font-size: 18px;
+}
+.sliderContainerImg{
+        width: 100%;
+        position: relative;
+        top: -220px;
+        overflow: hidden;
+        display: none;
+        background: rgba(0, 0, 0, 0.623);
+    }
+.imgText{/*Text Given in Inside Image*/
+    height: 200px;
+    width: 60%;
+    position: relative;
+    z-index: 2;
+    top: 250px;
+    margin-left: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5vw;
+    color: #fffdf7bd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+}
+.sliderControlIcons{   /*to Change size of Icons of Slider Controllers */
+    font-size: 19px !important;
+    margin-left: -5px !important;
+    line-height: 40px !important;
+}
+i.sliderControlIcons.flaticon-pause::before,i.sliderControlIcons.flaticon-play::before {/*To bring pause in middle*/
+    margin-right: 20px !important;
+}
+.headTextPic{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.infoTextPic{
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.introText p{/*Explore Nepal Text*/
+    display: inline;
+    color: #ec6a83;
+    transition: 0.2s linear;
+    line-height: 2;
+}
+.introText a{
+    text-decoration: none;
+}
+.introText p:hover{/*Hovering Explore Nepal*/
+    cursor: pointer;
+    color: #a79573;
+}
+.logoVisit{
+    max-height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoVisit img {
+    max-width: 32%;
+    position: relative;
+    left: -100px;
+}
+.logoLifetime img {
+    max-width: 70%;
+    position: relative;
+    left: -70px;
+}

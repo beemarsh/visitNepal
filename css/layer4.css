@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Fjalla+One|Kanit|Signika|Titillium+Web&display=swap');
+.fourthLayer{/*Layer 4 is here*/
+    width: 100%;
+    height: 750px;
+    background: url('../pics/wave3.svg') no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    position: relative;
+    top: 100px;
+}
+.layer4Content{/*Layer 4 content box container flex box**/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: transparent;
+}
+.lay4ImageSection{/*Layer 4 Image section is here*/
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+.lay4TextSection{/**Layer 4 Text section is here*/
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: wheat;
+    text-align: center;
+    line-height: 1.6;
+}
+.lay4Img{/*Layer 4 Images*/
+    position: relative;
+    top: 30px;
+    /* border-radius: 4%; */
+    overflow: hidden;
+    box-shadow: -1px 1px 20px 3px;
+}
+.smallImgLay4{/*Small Image box */
+    height: 68%;
+    width: 38%;
+}
+.bigImgLay4{/*Big image box**/
+    height: 78%;
+    width: 30%;
+    left: 8%;
+}
+.lay4Img img{/*Images of Buddha*/
+    position: relative;
+    height: 100%;
+    transition: 0.4s linear;
+}
+.bigImgLay4 img{/*Big Image Container*/
+    width: 100%;
+    max-width: 100%;
+}
+.smallImgLay4 img{/*Small Images Container*/
+    left: -340px;
+}
+.lay4Img img:hover{
+    filter: blur(0.8px);
+}
+.lay4TextHead{/*Layer 4 Text heading**/
+    font-size: 3.2em;
+    font-family: 'Signika', sans-serif;
+    color: #be5c4b;
+}
+.lay4SubTexts{/*Layer 4th sub texts*/
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 300px;
+    text-indent: 50px;
+    color: black;
+    font-size: 1.2em;
+}

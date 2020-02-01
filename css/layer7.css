@@ -1,0 +1,61 @@
+.seventhLayer,.eighthLayer{
+    height: 800px;
+    width: 100%;
+    background: white;
+}
+.layer7ContentContainer,.layer8ContentContainer{/*Layer 7 and 8Video Container*/
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.layer7TextContainer,.layer8TextContainer{/*Text Container is Here*/
+    height: 100%;
+    text-align: center;
+    width: 30%;
+    line-height: 1.4;
+    font-size: 5em;
+    font-family: 'Ruge Boogie', cursive;
+    color: #9174a75c;
+    margin-top: 220px;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+}
+.newClass {/*To animate text on scolling using JS*/
+    visibility: hidden;
+    opacity: 0;
+    transition-delay: 0s;
+}
+.layer7VideoContainer,.layer8VideoContainer{/*Video Container*/
+    height: 100%;
+    width: 70%;
+}
+.layer7VideoContainer video,.layer8VideoContainer video{/*Video of Layer 7**/
+    max-width: 75%;
+    left: 180px;
+    box-shadow: -1px 3px 40px 1px black;
+    top: 100px;
+    position: relative;
+}
+.fixLay7Text{/*To fix Layer 7 Text*/
+    position: fixed;
+    top: 0;
+    margin-top: 220px;
+    left: 0;
+}
+.manageLay7Img{
+    margin-left: 500px;
+}
+.fixLay8Text{/*To fix Layer 7 Text*/
+    position: fixed;
+    top: 0;
+    margin-top: 220px;
+    left: 0;
+}
+.manageLay8Img{
+    margin-left: 500px;
+}
